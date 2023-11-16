@@ -43,21 +43,21 @@ By drag and drop action on the connection handles, the routing can be altered. t
 
 ## Other actions
 Other general action can be performed
-#### Delete a component or/and connection
+- Delete a component or/and connection
 Select the component/connection. Press the `del` key on the keyboard. **NB:** when deleting a component with connection attached to it. the connections are automatically deleted.
-#### Rotate a component.
+- Rotate a component.
 Select the component first (left click on the component). Press the key combination `Crtl` + `R`
-#### Mirror a coponent
+- Mirror a coponent
 
-#### Rename a component
+   Rename a component
 Select the compoent, right mouse click and select `rename` from the context menu.
 
-#### Select multiple compoenents
+- Select multiple compoenents
 Right mouse click on the blank part of the canvas. Select `Multi-select` from the context menu.
 
-#### Clear the canvas
+- Clear the canvas
 Right mouse click on the blank part of the canvas. Select `Clear all` from the context menu.
 
-### Save (TBI)
+- Save (TBI)
 
-### Load (TBI)
+- Load (TBI)
