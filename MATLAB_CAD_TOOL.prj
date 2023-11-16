@@ -1,0 +1,76 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration build-checksum="487733508" file="/home/piecontractor/StarTeamProjects/PowerInt/PIExpertMATLAB/Customer/EngSpec/MATLAB CAD TOOL/MATLAB_CAD_TOOL.prj" location="/home/piecontractor/StarTeamProjects/PowerInt/PIExpertMATLAB/Customer/EngSpec/MATLAB CAD TOOL" name="MATLAB_CAD_TOOL" preferred-package-location="/usr/local/MATLAB/MATLABWebAppServer/R2019a/application" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>MATLAB_CAD_TOOL</param.appname>
+    <param.intermediate>${PROJECT_ROOT}/MATLAB_CAD_TOOL</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/MATLAB_CAD_TOOL</param.files.only>
+    <param.output>/local/MathWorks/webapps/R2019a/apps</param.output>
+    <param.logdir>${PROJECT_ROOT}/MATLAB_CAD_TOOL</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}/Schematic.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/CapacitorObj.m</file>
+      <file>${PROJECT_ROOT}/CommonModeChokeObj.m</file>
+      <file>${PROJECT_ROOT}/ComponentObj.m</file>
+      <file>${PROJECT_ROOT}/DiodeObj.m</file>
+      <file>${PROJECT_ROOT}/DrawCircle.m</file>
+      <file>${PROJECT_ROOT}/EComponentType.m</file>
+      <file>${PROJECT_ROOT}/FuseObj.m</file>
+      <file>${PROJECT_ROOT}/InductorObj.m</file>
+      <file>${PROJECT_ROOT}/LineObj.m</file>
+      <file>${PROJECT_ROOT}/MosfetObj.m</file>
+      <file>${PROJECT_ROOT}/NodeObj.m</file>
+      <file>${PROJECT_ROOT}/PinObj.m</file>
+      <file>${PROJECT_ROOT}/ResistorObj.m</file>
+      <file>${PROJECT_ROOT}/SchematicManager.m</file>
+      <file>${PROJECT_ROOT}/SchematicObj.m</file>
+      <file>${PROJECT_ROOT}/TransformerObj.m</file>
+      <file>${PROJECT_ROOT}/TrfConfigureDlg.m</file>
+      <file>${PROJECT_ROOT}/ZenerObj.m</file>
+      <file>${PROJECT_ROOT}/rotate_figure.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/MATLAB_CAD_TOOL" name="MATLAB_CAD_TOOL.ctf" optional="false">/home/piecontractor/StarTeamProjects/PowerInt/PIExpertMATLAB/Customer/EngSpec/MATLAB CAD TOOL/MATLAB_CAD_TOOL/MATLAB_CAD_TOOL.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>3.10.0-957.12.2.el7.x86_64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
